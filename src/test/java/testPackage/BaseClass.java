@@ -46,7 +46,7 @@ public class BaseClass {
 	public void setUpTest(Method method)
 	{
 		String testName = method.getName();
-		testLog = reports.createTest(testName);
+		//testLog = reports.createTest(testName);
 		//Initiate driver
 		//BrowserFactory.startBrowser("chrome");
 	}
