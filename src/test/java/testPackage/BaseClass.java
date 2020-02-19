@@ -48,7 +48,7 @@ public class BaseClass {
 		String testName = method.getName();
 		testLog = reports.createTest(testName);
 		//Initiate driver
-		BrowserFactory.startBrowser("chrome");
+		//BrowserFactory.startBrowser("chrome");
 	}
 	
 	@AfterMethod
@@ -66,7 +66,7 @@ public class BaseClass {
 		}
 	
 		//quit the instance of driver
-		BrowserFactory.driver.quit();
+		//BrowserFactory.driver.quit();
 	}
 	
 	@AfterTest
