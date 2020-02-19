@@ -27,7 +27,7 @@ public class TestClass extends BaseClass {
 		SoftAssert softAssert = new SoftAssert();
 		//Initiate PO for login page
 		LoginPage login_page = new LoginPage();
-		testLog.log(Status.INFO, "Logged in successully");
+		//testLog.log(Status.INFO, "Logged in successully");
 
 		//perform login steps
 		login_page.loginSteps();
@@ -37,7 +37,7 @@ public class TestClass extends BaseClass {
 		HomePage home_page = new HomePage();
 		home_page.validateHomePage();
 		softAssert.assertEquals(true, true);		
-		testLog.log(Status.PASS, "Login test Passed");
+		//testLog.log(Status.PASS, "Login test Passed");
 
 		
 		softAssert.assertAll();
