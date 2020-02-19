@@ -59,10 +59,10 @@ public class BaseClass {
 			testLog.log(Status.PASS, "Test passed");
 		}else if(result.getStatus()==ITestResult.FAILURE)
 		{
-			testLog.log(Status.FAIL, "Test failed");
+			//testLog.log(Status.FAIL, "Test failed");
 		}else if(result.getStatus()==ITestResult.SKIP)
 		{
-			testLog.log(Status.SKIP, "Test skipped");
+			//testLog.log(Status.SKIP, "Test skipped");
 		}
 	
 		//quit the instance of driver
