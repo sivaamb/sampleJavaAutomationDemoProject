@@ -56,7 +56,7 @@ public class BaseClass {
 	{
 		if(result.getStatus()==ITestResult.SUCCESS)
 		{
-			testLog.log(Status.PASS, "Test passed");
+			//testLog.log(Status.PASS, "Test passed");
 		}else if(result.getStatus()==ITestResult.FAILURE)
 		{
 			//testLog.log(Status.FAIL, "Test failed");
