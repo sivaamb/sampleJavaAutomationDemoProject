@@ -53,15 +53,15 @@ public class TestClass extends BaseClass {
 		LoginPage login_page = new LoginPage();
 
 		//perform login steps
-		login_page.loginSteps();
-		softAssert.assertEquals(true, true, "Test failed after launching url");
+		//login_page.loginSteps();
+		//softAssert.assertEquals(true, true, "Test failed after launching url");
 		
 		//Initiate PO for home page and validate
 		HomePage home_page = new HomePage();
-		home_page.validateHomePage();
-		softAssert.assertEquals(true, true);		
+		//home_page.validateHomePage();
+		//softAssert.assertEquals(true, true);		
 		
-		softAssert.assertAll();
+		//softAssert.assertAll();
 		
 	}
 
