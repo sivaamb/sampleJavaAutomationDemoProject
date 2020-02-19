@@ -23,13 +23,13 @@ public class TestClass2 extends BaseClass {
 		LoginPage login_page = new LoginPage();
 		
 		//perform login steps
-		login_page.loginSteps();
+		//login_page.loginSteps();
 		
 		//Initiate PO for home page and validate
 		HomePage home_page = new HomePage();
 		
 		//Calling a method to validate is a home page is displayed
-		home_page.validateHomePage();
+		//home_page.validateHomePage();
 	}
 	
 	
