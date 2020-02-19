@@ -23,7 +23,7 @@ public class TestClass extends BaseClass {
 	@Test(description = "Test to validate the login feature")
 	public void loginTest()
 	{		
-		testLog.log(Status.INFO, "Login test started");
+		//testLog.log(Status.INFO, "Login test started");
 		SoftAssert softAssert = new SoftAssert();
 		//Initiate PO for login page
 		LoginPage login_page = new LoginPage();
